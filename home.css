@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: beige;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #f8b400;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+nav ul li {
+  margin: 0 15em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Recipes Section */
+.recipes {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.recipes h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.recipe-card {
+  background-color: white;
+  margin-left: auto;
+  border-radius: 10em;
+  box-shadow: 0 4em 8em rgba(0, 0, 0, 0.1);
+  margin: 20em auto;
+  max-width: 300em;
+  padding: 20em;
+  text-align: left;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 10em;
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  margin: 10em 0;
+}
+
+.recipe-card p {
+  font-size: 1rem;
+  margin: 10em 0 15em;
+}
+
+.recipe-card .btn {
+  background-color: #f8b400;
+  color: white;
+  padding: 10em 20em;
+  text-decoration: none;
+  border-radius: 5em;
+  text-align: center;
+}
+
+.recipe-card .btn:hover {
+  background-color: #e89b00;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20em 0;
+  text-align: center;
+}
+
+footer p {
+}
+.btn{
+  width: 20%;
+}
